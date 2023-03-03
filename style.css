@@ -5,3 +5,15 @@
 .column {
     list-style: none;
 }
+
+li {
+    display: inline;
+}
+
+.head {
+    text-align: center;
+}
+
+header {
+    margin: 32px 250px;
+}
