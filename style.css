@@ -17,3 +17,13 @@ li {
 header {
     margin: 32px 250px;
 }
+
+.column li {
+  margin-right: 155px;
+}
+.column li:last-child {
+  margin-right: 0;
+}
+.column a {
+  padding: 8px 10px;
+}
