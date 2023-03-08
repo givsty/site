@@ -1,29 +1,30 @@
 * {
-    box-sizing: border-box;
-}
-
-.column {
-    list-style: none;
-}
-
-li {
-    display: inline;
+  box-sizing: border-box;
 }
 
 .head {
-    text-align: center;
+  width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
-header {
-    margin: 32px 250px;
+.column {
+  display: flex;
+  list-style: none;
 }
 
 .column li {
-  margin-right: 155px;
+  padding-left: 155px;
+  text-decoration: none;
 }
-.column li:last-child {
-  margin-right: 0;
+
+.column li a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
 }
-.column a {
-  padding: 8px 10px;
+
+hr {
+  width: 1170px;
+  margin: 0 auto;
 }
